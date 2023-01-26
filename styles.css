@@ -1,0 +1,488 @@
+#navbar {
+    display: block;
+    background-color: #D9D9D9;
+    height: 2rem;
+
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#pdl {
+    max-width: 30px;
+    position: relative;
+    left: 3rem;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 1.5rem;
+    gap: 1.4rem;
+}
+
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar a:hover {
+    color: #742C2C;
+}
+
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: georgia; 
+}
+
+.search {
+    top: 14px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    font-size: small;
+    right: 30px;
+    gap: 5px;
+}
+
+#search-bar {
+    gap: 5px;
+    display: flex;
+}
+
+#search-title {
+    border-radius: 6px;
+    text-align: center;
+}
+
+#search-isbn {
+    border-radius: 6px;
+    text-align: center;
+}
+
+#book-type {
+    border-radius: 6px;;
+}
+
+#genre {
+    border-radius: 6px;
+}
+
+.sidewrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    row-gap: 8px;
+    padding: 40px 25px 40px 30px;
+}
+
+.sidewrapper a{
+    color: black;
+    text-decoration: none;
+}
+
+.main, .main-2 {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    display: block;
+    position: relative;
+    padding: 65px 180px;
+}
+
+.welcome2 {
+    display: block;
+    position: relative;
+    padding: 0rem 10rem;
+    top: -2rem;
+    left: 1rem;
+}
+
+#peadmount-wel {
+    font-size: 38px;
+    padding: 3px 7px;
+}
+
+#lorem {
+    padding: 0px 9px;
+    position: inherit;
+    bottom: 15px;
+}
+
+#book-stack {
+    max-width: 75vh;
+    display: block;
+    padding: 15px 0px;
+    margin: 75px 25px;
+    height: 48vh;
+}
+
+#friends {
+    max-width: 75vh;
+    display: block;
+    height: 50vh;
+}
+
+#kids {
+    max-width: 75vh;
+    display: block;
+    height: 50vh;
+    position: relative;
+    top: -5rem;
+    left: -4.7rem;
+}
+
+.kids {
+    margin: 50px 50px;
+}
+
+.students {
+    margin: 50px 50px;
+
+}
+
+.rectangle {
+    background-color:#742C2C;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    position: absolute;
+    width: 387px;
+    border-radius: 12px;
+    top: 21.7rem;
+    right: 7rem;
+}
+
+.rectangle2 {
+    background-color:#742C2C;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    position: absolute;
+    width: 387px;
+    border-radius: 12px;
+    top: 11.5rem;
+    right: 12rem;
+}
+
+.rectangle3 {
+    background-color:#742C2C;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    position: absolute;
+    width: 387px;
+    border-radius: 12px;
+    right: 7.5rem;
+    bottom: -20rem;
+}
+
+.about-us {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.about-us2 {
+    display: grid;
+    grid-auto-flow: column;
+    text-overflow: clip;
+}
+
+.about-pdl {
+    display: block;
+    position: relative;
+    padding: 1rem 4rem;
+    left: 7.5rem;
+    margin: 4px;
+}
+
+
+.mission {
+    display: block;
+    position: relative;
+    padding: 1rem 4rem;
+}
+
+.librarian {
+    display: block;
+    padding: 3rem;
+}
+
+#librarian {
+    max-width: 40vh;
+    position: relative;
+    left: 9rem;
+    bottom: 1rem;
+}
+
+.why {
+    display: block;
+    position: relative;
+    left: 9rem;
+}
+
+#why-text {
+    inline-size: 450px;
+    overflow-wrap: break-word;
+
+}
+
+.listings-book-hold {
+    display: block;
+    float: right;
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+}
+
+#listing1 {
+    max-width: 150px;
+}
+
+.listings-book1 {
+    position: relative;
+    top: 4rem;
+    text-align: center;
+    left: 3rem;
+}
+
+.book-listings-page {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 2rem;
+    padding: 4rem 15rem;
+}
+
+.books-grid {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 2rem;
+    position: relative;
+    left: 7.5rem;
+}
+
+#booksrectangle1, #booksrectangle2{
+    max-width: 550px;
+}
+
+.check-out-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+#button-co, #hold-book {
+    border-radius: 5px;
+    background-color: #246D2B;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+#titles {
+    position: relative;
+    right: 5.6rem;
+}
+
+.history-profile {
+    display: grid;
+    grid-auto-flow: row;
+    padding: 2.5rem 14rem;
+}
+
+.profile {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 4.2px;
+}
+
+#default {
+    max-width: 155px;
+}
+
+#checked-books {
+    max-width: 440px;
+}
+
+.checkout-page {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.checkout-history {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#checkout-h3 {
+    position: relative;
+    top: 1rem;
+}
+
+.favorites1, .favorites2 {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.favorites-row1, .favorites-row2 {
+    display: grid;
+    grid-auto-flow: row;
+    align-content: center;
+}
+
+#co-fav {
+    border-radius: 10px;
+    background-color:#246D2B;
+    border-color: white;
+    width: 9rem;
+    cursor: pointer;
+    color: white;
+}
+
+
+#favorite-books-img {
+    max-width: 130px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem;
+    left: 10rem;
+    flex-wrap: wrap;
+}
+
+.info li {
+    display:list-item;
+    gap: 4rem;
+    list-style: none;
+}
+
+#star {
+    font-size: smaller;
+    color: #FFC700
+}
+
+.description-page {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 4rem 13rem;
+}
+
+.book-description {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    padding-right: 4rem;
+}
+
+#co-description {
+    background-color: #246D2B;
+    color: white;
+    border-radius: 7px;
+    border-color: white;
+    cursor:pointer;
+    width: 5rem;
+    height: 2rem;
+}
+
+#page-book{
+    max-width: 200px;
+}
+
+.book-info {
+    padding: 0rem 18rem;
+}
+
+#spandes {
+    font-size: 14px;
+}
+
+.book-specifics {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-to-pdl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.flexed {
+    float: right;
+}
+
+#ellipse {
+    max-width: 200px;
+    position: absolute;
+    left: 24rem;
+}
+
+#vector {
+    position: relative;
+    max-width: 130px;
+    right: 10.4rem;
+    top: 2.5rem;
+}
+
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    position: relative;
+    left: 10rem;
+    bottom: 7rem;
+}
+
+#flex1 {
+    color: #742C2C;
+}
+
+#flex2 {
+    color:  #ED907F;
+}
+
+#flex3 {
+    color: #984F1F;
+}
+
+#register-button {
+    color: white;
+    background-color: #067C44;
+    border-radius: 10px;
+    border-color: white;
+    width: 8rem;
+    align-self: center;
+}
+
+#account{
+    font-size: smaller;
+}
+
+#account a {
+    color: #2477D9
+}

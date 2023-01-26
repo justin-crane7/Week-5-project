@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>checkout/recent books</title>
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <div class="navbar-left">
+                <a href="./landing.html"><img src="./Assets/Ellipse 1.png" alt="Peadmount Library Logo" id="pdl"></a>
+            </div>
+            <div class="navbar-right">
+                <a href="./about.html">Location</a>
+                <a href="./histor">History</a>
+                <a href="./about.html">About Us</a>
+                <a href="./profile.html">Sign-in</a>
+                <a href="./listings.html"><i class="fa fa-search"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="search">
+        <form id="search-bar">
+            <strong>Search Catalog</strong>
+            <input type="search" placeholder="Title" id="search-title">
+            <input type="search" placeholder="ISBN" id="search-isbn">
+            <select name="type" id="book-type">
+                <option value="format">Format</option>
+                <option value="hard-cover">Hard-cover</option>
+                <option value="paperback">Paperback</option>
+                <option value="e-book">E-book</option>
+            </select>
+            <select name="genre" id="genre">
+                <option value="genre-1">Genre</option>
+                <option value="fiction">Fiction</option>
+                <option value="nonfiction">Nonfiction</option>
+                <option value="romance">Romance</option>
+                <option value="philosophy">Philosophy</option>
+            </select>
+        </form>
+    </div>
+    <div class="sidewrapper">
+        <a href="./about.html">Ask Us</a>
+        <a href="./listings.html">Reading Challenge</a>
+        <a href="./listings.html">Catalog</a>
+        <a href="">Book Camp</a>
+        <a href="./listings.html">E-books</a>
+        <a href="">STEM</a>
+        <a href="./about.html">Online Resources</a>
+        <a href="./about.html">Volunteer</a>
+    </div>
+    <div class="checkout-history">
+        <div class="checkout-page">
+            <div class="history-profile">
+                    <div class="profile">
+                        <h3>My Profile</h3>
+                        <img src="./Assets/pfp.png" alt="a default image for a profle" id="default">
+                        <input type="file" placeholder="Upload Image">
+                        <ul class="info">
+                            <li>Name: Amber Mitchell</li>
+                            <li>Adress: 5265 Stanford Ave, Atlanta, Georgia, 30094</li>
+                            <li>Phone Number: 123-456-7890</li>
+                        </ul>
+                    </div>
+                <div class="history">
+                    <h3>Recent Checkout History</h3>
+                    <img src="./Assets/Rectangle 31.png" alt="a list of checked out books" id="checked-books">   
+                </div>
+            </div>
+        </div>
+        <div class="checkout-2">
+            <h3 id="checkout-h3">Your Favorites</h3>
+            <div class="favorites1"> 
+                <div class="favorites-row1">
+            <img src="./Assets/book.png" alt="your favorite" id="favorite-books-img">
+            <button id="co-fav">Check Out</button>
+            </div>
+            <div class="favorites-row2">
+            <img src="./Assets/Rectangle 39.png" alt="your favorite" id="favorite-books-img">
+            <button id="co-fav">Check out</button>
+            </div>
+            </div>
+            <div class="favorites2">
+                <div class="favorites-row1">
+            <img src="./Assets/Rectangle 40.png" alt="your favorite" id="favorite-books-img">
+            <button id="co-fav">Check Out</button>
+            </div>
+            <div class="favorites-row2">
+            <img src="./Assets/Rectangle 37.png" alt="your favorite" id="favorite-books-img">
+            <button id="co-fav">Check Out</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

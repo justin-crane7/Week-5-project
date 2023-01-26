@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Listings</title>
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <div class="navbar-left">
+                <a href="./landing.html"><img src="./Assets/Ellipse 1.png" alt="Peadmount Library Logo" id="pdl"></a>
+            </div>
+            <div class="navbar-right">
+                <a href="./about.html">Location</a>
+                <a href="./checkout.html">History</a>
+                <a href="./about.html">About Us</a>
+                <a href="./profile.html">Sign-in</a>
+                <a href="./listings.html"><i class="fa fa-search"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="search">
+        <form id="search-bar">
+            <strong>Search Catalog</strong>
+            <input type="search" placeholder="Title" id="search-title">
+            <input type="search" placeholder="ISBN" id="search-isbn">
+            <select name="type" id="book-type">
+                <option value="format">Format</option>
+                <option value="hard-cover">Hard-cover</option>
+                <option value="paperback">Paperback</option>
+                <option value="e-book">E-book</option>
+            </select>
+            <select name="genre" id="genre">
+                <option value="genre-1">Genre</option>
+                <option value="fiction">Fiction</option>
+                <option value="nonfiction">Nonfiction</option>
+                <option value="romance">Romance</option>
+                <option value="philosophy">Philosophy</option>
+            </select>
+        </form>
+    </div>
+    <div class="sidewrapper">
+        <a href="./about.html">Ask Us</a>
+        <a href="./listings.html">Reading Challenge</a>
+        <a href="./listings.html">Catalog</a>
+        <a href="">Book Camp</a>
+        <a href="./listings.html">E-books</a>
+        <a href="">STEM</a>
+        <a href="./about.html">Online Resources</a>
+        <a href="./about.html">Volunteer</a>
+    </div>
+    <div class="listings-book-hold">
+        <span id="titles">There are 6 other readers currently in line for this title, please view these similar titles.</span>
+    </div>
+    <div class="book-listings-page">
+        <div class="listings-book1">
+            <a href="./description.html"><img src="./Assets/Rectangle 37.png" alt="Friends and Strangers" id="listing1"></a>
+            <span>Currently Unavailable</span>
+            <button id="hold-book">Place Hold</button>
+        </div>
+        <div class="books-grid">
+            <img src="./Assets/Rectangle 5.png" alt="a list of titles" id="booksrectangle1">
+            <div class="check-out-buttons">
+                <button id="button-co">Check Out</button>
+                <button id="button-co">Check Out</button>
+                <button id="button-co">Check Out</button>
+                <button id="button-co">Check Out</button>
+            </div>
+            <img src="./Assets/Rectangle 11.png" alt="a second row of titles" id="booksrectangle2">
+            <div class="check-out-buttons">
+                <button id="button-co">Check Out</button>
+                <button id="button-co">Check Out</button>
+                <button id="button-co">Check Out</button>
+                <button id="button-co">Check Out</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

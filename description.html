@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Clicked Book</title>
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <div class="navbar-left">
+                <a href="./landing.html"><img src="./Assets/Ellipse 1.png" alt="Peadmount Library Logo" id="pdl"></a>
+            </div>
+            <div class="navbar-right">
+                <a href="./about.html">Location</a>
+                <a href="./history.html">History</a>
+                <a href="./about.html">About Us</a>
+                <a href="./profile.html">Sign-in</a>
+                <a href="./listings.html"><i class="fa fa-search"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="search">
+        <form id="search-bar">
+            <strong>Search Catalog</strong>
+            <input type="search" placeholder="Title" id="search-title">
+            <input type="search" placeholder="ISBN" id="search-isbn">
+            <select name="type" id="book-type">
+                <option value="format">Format</option>
+                <option value="hard-cover">Hard-cover</option>
+                <option value="paperback">Paperback</option>
+                <option value="e-book">E-book</option>
+            </select>
+            <select name="genre" id="genre">
+                <option value="genre-1">Genre</option>
+                <option value="fiction">Fiction</option>
+                <option value="nonfiction">Nonfiction</option>
+                <option value="romance">Romance</option>
+                <option value="philosophy">Philosophy</option>
+            </select>
+        </form>
+    </div>
+    <div class="sidewrapper">
+        <a href="./about.html">Ask Us</a>
+        <a href="./listings.html">Reading Challenge</a>
+        <a href="./listings.html">Catalog</a>
+        <a href="">Book Camp</a>
+        <a href="./listings.html">E-books</a>
+        <a href="">STEM</a>
+        <a href="./about.html">Online Resources</a>
+        <a href="./about.html">Volunteer</a>
+    </div>
+    <div class="description-page">
+        <div class="book-description">
+        <img src="./Assets/Rectangle 29.png" alt="This Close to Okay" id="page-book">
+        <p id="rating">Rating <i id="star" class="fa fa-star"></i><i id="star" class="fa fa-star"></i><i id="star" class="fa fa-star"></i><i id="star" class="fa fa-star-half"></i><i id="star" class="fa fa-star-o"></i> </p>
+        <button id="co-description">Check Out</button>
+        </div>
+        <div class="book-info">
+            <div class="book-specifics">
+                <span id="spandes">Title: This Close to Okay</span>
+                <span id="spandes">ISBN: 654FGSDFOMGRFSFHT</span>
+                <span id="spandes">Author: Leesa Cross-Smith</span>
+                <span id="spandes">Published: October 15, 1995</span>
+            </div>
+            <div class="summary">
+                <h4>Summary</h4>
+                <p>faucibus orci luctus et ultrices posuere cubilia curae; Aliquam non molestie sapien. Sed et arcu in sapien ornare mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus ultricies nisl, id feugiat lorem vehicula ac. Suspendisse potenti. Integer sollicitudin </p>
+            </div>
+            <div class="reviews">
+                <h4>Reviews</h4>
+                <h5>Stavie Mitchell:</h5><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus ultricies nisl, id feugiat lorem vehicula ac. Suspendisse potenti.</span>
+            </div>
+    </div>
+</body>
+</html>
